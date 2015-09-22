@@ -1,0 +1,1 @@
+java -classpath build/libs/lecture_08.jar edu.colorado.cs.counter.Fixed
