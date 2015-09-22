@@ -4,7 +4,7 @@ public class Hidden {
 
   public int count;
 
-  public void Test() {
+  public void Hidden() {
     count = 0;
   }
 
