@@ -44,4 +44,3 @@
 
 (defn count-primes-par [n]
   (sum-par (convert-to-numbers-par (find-primes-par (produce-range n)))))
-
