@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEE301C2154E3162006253F9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE301C1154E3162006253F9 /* Cocoa.framework */; };
+		BEE301CC154E3162006253F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE301CA154E3162006253F9 /* InfoPlist.strings */; };
+		BEE301CE154E3162006253F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE301CD154E3162006253F9 /* main.m */; };
+		BEE301D2154E3162006253F9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BEE301D0154E3162006253F9 /* Credits.rtf */; };
+		BEE301D5154E3162006253F9 /* PrimeFinderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE301D4154E3162006253F9 /* PrimeFinderAppDelegate.m */; };
+		BEE301D8154E3162006253F9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE301D6154E3162006253F9 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEE301BD154E3162006253F9 /* PrimeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE301C1154E3162006253F9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BEE301C4154E3162006253F9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BEE301C5154E3162006253F9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BEE301C6154E3162006253F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEE301C9154E3162006253F9 /* PrimeFinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeFinder-Info.plist"; sourceTree = "<group>"; };
+		BEE301CB154E3162006253F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEE301CD154E3162006253F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEE301CF154E3162006253F9 /* PrimeFinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrimeFinder-Prefix.pch"; sourceTree = "<group>"; };
+		BEE301D1154E3162006253F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BEE301D3154E3162006253F9 /* PrimeFinderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeFinderAppDelegate.h; sourceTree = "<group>"; };
+		BEE301D4154E3162006253F9 /* PrimeFinderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeFinderAppDelegate.m; sourceTree = "<group>"; };
+		BEE301D7154E3162006253F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEE301BA154E3162006253F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE301C2154E3162006253F9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEE301B2154E3161006253F9 = {
+			isa = PBXGroup;
+			children = (
+				BEE301C7154E3162006253F9 /* PrimeFinder */,
+				BEE301C0154E3162006253F9 /* Frameworks */,
+				BEE301BE154E3162006253F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEE301BE154E3162006253F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEE301BD154E3162006253F9 /* PrimeFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEE301C0154E3162006253F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEE301C1154E3162006253F9 /* Cocoa.framework */,
+				BEE301C3154E3162006253F9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEE301C3154E3162006253F9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEE301C4154E3162006253F9 /* AppKit.framework */,
+				BEE301C5154E3162006253F9 /* CoreData.framework */,
+				BEE301C6154E3162006253F9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BEE301C7154E3162006253F9 /* PrimeFinder */ = {
+			isa = PBXGroup;
+			children = (
+				BEE301D3154E3162006253F9 /* PrimeFinderAppDelegate.h */,
+				BEE301D4154E3162006253F9 /* PrimeFinderAppDelegate.m */,
+				BEE301D6154E3162006253F9 /* MainMenu.xib */,
+				BEE301C8154E3162006253F9 /* Supporting Files */,
+			);
+			path = PrimeFinder;
+			sourceTree = "<group>";
+		};
+		BEE301C8154E3162006253F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE301C9154E3162006253F9 /* PrimeFinder-Info.plist */,
+				BEE301CA154E3162006253F9 /* InfoPlist.strings */,
+				BEE301CD154E3162006253F9 /* main.m */,
+				BEE301CF154E3162006253F9 /* PrimeFinder-Prefix.pch */,
+				BEE301D0154E3162006253F9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEE301BC154E3162006253F9 /* PrimeFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE301DB154E3162006253F9 /* Build configuration list for PBXNativeTarget "PrimeFinder" */;
+			buildPhases = (
+				BEE301B9154E3162006253F9 /* Sources */,
+				BEE301BA154E3162006253F9 /* Frameworks */,
+				BEE301BB154E3162006253F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeFinder;
+			productName = PrimeFinder;
+			productReference = BEE301BD154E3162006253F9 /* PrimeFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEE301B4154E3161006253F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PrimeFinder;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "University of Colorado, Boulder";
+			};
+			buildConfigurationList = BEE301B7154E3161006253F9 /* Build configuration list for PBXProject "PrimeFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEE301B2154E3161006253F9;
+			productRefGroup = BEE301BE154E3162006253F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEE301BC154E3162006253F9 /* PrimeFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEE301BB154E3162006253F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE301CC154E3162006253F9 /* InfoPlist.strings in Resources */,
+				BEE301D2154E3162006253F9 /* Credits.rtf in Resources */,
+				BEE301D8154E3162006253F9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEE301B9154E3162006253F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE301CE154E3162006253F9 /* main.m in Sources */,
+				BEE301D5154E3162006253F9 /* PrimeFinderAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEE301CA154E3162006253F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE301CB154E3162006253F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEE301D0154E3162006253F9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE301D1154E3162006253F9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BEE301D6154E3162006253F9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE301D7154E3162006253F9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEE301D9154E3162006253F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BEE301DA154E3162006253F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BEE301DC154E3162006253F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeFinder/PrimeFinder-Prefix.pch";
+				INFOPLIST_FILE = "PrimeFinder/PrimeFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEE301DD154E3162006253F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeFinder/PrimeFinder-Prefix.pch";
+				INFOPLIST_FILE = "PrimeFinder/PrimeFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEE301B7154E3161006253F9 /* Build configuration list for PBXProject "PrimeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE301D9154E3162006253F9 /* Debug */,
+				BEE301DA154E3162006253F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE301DB154E3162006253F9 /* Build configuration list for PBXNativeTarget "PrimeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE301DC154E3162006253F9 /* Debug */,
+				BEE301DD154E3162006253F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEE301B4154E3161006253F9 /* Project object */;
+}
